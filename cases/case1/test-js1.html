@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script src="diabetes-case1.js"></script>
+    <script src="util.js"></script>
+
+    <script>
+        var exam = new DiabetesPhysicalExamination(DiabetesPhysicalExamination.bmi, 28);
+
+        var diabetesType = new DiabetesMellitus(DiabetesMellitus.type2DiabetesMellitus);
+        var diagnosis = new DiabetesDiagnosis(diabetesType);
+        var treatmentPlan = new TreatmentPlan();
+        var profile = new PatientProfile(treatmentPlan, diagnosis);
+        var p = new Patient(profile);
+
+        console.log("-- input:");
+        console.log(JSON.stringify(exam, CircularReplacer(), 4));
+        console.log(JSON.stringify(p, CircularReplacer(), 4));
+
+        execute(exam, p);
+
+        console.log("-- output:");
+        console.log(JSON.stringify(p, CircularReplacer(), 4));
+    </script>
+
+</head>
+
+<body>
+</body>
+
+</html>

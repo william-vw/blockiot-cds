@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <script src="diabetes-case2.js"></script>
+    <script src="util.js"></script>
+
+    <script>
+        var sys = new BloodPressure(BloodPressure.systolicBloodPressure, 145);
+        var dias = new BloodPressure(BloodPressure.diastolicBloodPressure, 90);
+
+        var profile = new PatientProfile(new TreatmentPlan());
+        var p = new Patient(profile);
+
+        console.log("-- input:");
+        console.log(JSON.stringify(sys, CircularReplacer(), 4));
+        console.log(JSON.stringify(dias, CircularReplacer(), 4));
+        console.log(JSON.stringify(p, CircularReplacer(), 4));
+
+        execute(dias, sys, p);
+
+        console.log("-- output:");
+        console.log(JSON.stringify(p, CircularReplacer(), 4));
+    </script>
+
+</head>
+
+<body>
+</body>
+
+</html>

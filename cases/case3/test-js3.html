@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <script src="diabetes-case3.js"></script>
+    <script src="util.js"></script>
+
+    <script>
+        var profile = new PatientProfile(new Ethnicity(Ethnicity.pacificIslander));
+        profile.hasPhysicalExamination[DiabetesPhysicalExamination.bmi] = new DiabetesPhysicalExamination(DiabetesPhysicalExamination.bmi, 26);
+        
+        var p = new Patient(profile);
+
+        console.log("-- input:");
+        console.log(JSON.stringify(p, CircularReplacer(), 4));
+
+        execute(p);
+
+        console.log("-- output:");
+        console.log(JSON.stringify(p, CircularReplacer(), 4));
+    </script>
+
+</head>
+
+<body>
+</body>
+
+</html>
