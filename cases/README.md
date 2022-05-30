@@ -37,7 +37,7 @@ Each folder contains the following:
  ([source](https://diabetesjournals.org/clinical/article/40/1/10/139035/Standards-of-Medical-Care-in-Diabetes-2022#4097671))
 
    - [N3 editor link](http://ppr.cs.dal.ca:3002/n3/editor/s/XiTr4aKK)  
-   - [etherscan link](https://ropsten.etherscan.io/address/0x175D08884E2727332d229863EAC82E4c18A0b78f#WriteContract)
+   - [etherscan link](https://ropsten.etherscan.io/address/0x175D08884E2727332d229863EAC82E4c18A0b78f#writeContract)
 
  4. **Metformin Therapy**. ([code](case4/))  
   **3.6** Metformin therapy for prevention of type 2 diabetes should be considered in adults with prediabetes, as typified by the DPP, especially those aged 25–59 years with BMI >=35 kg/m2, higher fasting plasma glucose (e.g., >=110 mg/dL), and higher A1C (e.g., >=6.0%) [and in women with prior GDM].  
