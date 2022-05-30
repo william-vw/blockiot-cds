@@ -43,7 +43,7 @@ Each folder contains the following:
   **3.6** Metformin therapy for prevention of type 2 diabetes should be considered in adults with prediabetes, as typified by the DPP, especially those aged 25–59 years with BMI >=35 kg/m2, higher fasting plasma glucose (e.g., >=110 mg/dL), and higher A1C (e.g., >=6.0%) [and in women with prior GDM].  
    ([source](https://diabetesjournals.org/clinical/article/40/1/10/139035/Standards-of-Medical-Care-in-Diabetes-2022#4097686))
 
-   - _N3 editor link_: http://ppr.cs.dal.ca:3002/n3/editor/s/cRd8gOgt  
+   - [N3 editor link](http://ppr.cs.dal.ca:3002/n3/editor/s/cRd8gOgt)  
    - [etherscan link](...) (tuple: ...)
 
 [^1]: https://diabetesjournals.org/clinical/article/40/1/10/139035/Standards-of-Medical-Care-in-Diabetes-2022
