@@ -5,9 +5,9 @@ This folder contains the computerization of fragments of Clinical Decision Logic
 For each listed case, we provide the following links:  
 - **N3 editor link**: an N3 editor link that is pre-populated with the N3 code together with a test patient; when clicking 'execute', the editor will show any inferences.  
 
-- **Etherscan link**: a link to the smart contract deployed on etherscan, allowing users to interact and make transactions directly to the contract. On the _contract_ tab, click on _Write Contract_; in the field under _1. execute_, copy the provided tuple and click _Write_.  
+- **Etherscan link**: a link to the smart contract deployed on etherscan, allowing users to interact and make transactions directly to the contract. On the _contract_ tab, click on _Write Contract_; in the field under _1. execute_, copy the provided tuple and click _Write_. Example patient health data, which would normally be retrieved from persistent storage (e.g., IPFS), are currently hard-coded into these smart contracts.
 
-Each folder contains the following:
+- Each folder contains the following:
 - diabetes-case[n].n3: the associated CDS model as an N3 rulesset  
 - diabetes-case[n].sol: auto-generated Solidity code  
 - diabetes-case[n].js: auto-generated JavaScript code  
