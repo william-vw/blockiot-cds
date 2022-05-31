@@ -9,13 +9,13 @@ import wvw.semweb.codegen.gen.Util;
 import wvw.semweb.codegen.model.adt.CodeModel;
 import wvw.semweb.codegen.model.logic.Assignment;
 import wvw.semweb.codegen.model.logic.Block;
+import wvw.semweb.codegen.model.logic.CodeStatement.Codes;
 import wvw.semweb.codegen.model.logic.Comparison;
+import wvw.semweb.codegen.model.logic.Comparison.Comparators;
 import wvw.semweb.codegen.model.logic.CreateStruct;
 import wvw.semweb.codegen.model.logic.IfThen;
 import wvw.semweb.codegen.model.logic.NodePath;
 import wvw.semweb.codegen.model.logic.Variable;
-import wvw.semweb.codegen.model.logic.CodeStatement.Codes;
-import wvw.semweb.codegen.model.logic.Comparison.Comparators;
 import wvw.semweb.codegen.parse.rule.RuleGraph;
 
 public class InsertStructExistsCheck extends ModelPostprocessor {
