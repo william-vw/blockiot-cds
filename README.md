@@ -1,4 +1,4 @@
-# BlockIOT: Clinical Decision Support
+# BlockIoT: Clinical Decision Support
 
 This repository contains: 
 - [`tool/`](tool/) folder: an implementation of the algorithms for automated generation of smart contracts based on rule-based Clinical Decision Support (CDS) models.  
