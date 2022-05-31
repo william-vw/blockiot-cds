@@ -1,8 +1,7 @@
-// Specifies the version of Solidity, using semantic versioning.
-// Learn more: https://solidity.readthedocs.io/en/v0.5.10/layout-of-source-files.html#pragma
-pragma solidity ^0.7.0;
+//SPDX-License-Identifier: Apache 2
+pragma solidity ^0.8.0;
 
-contract DiabetesCase3 {
+contract DiabetesIot4 {
 	string public message;
 	
 	constructor(string memory initMessage) {
@@ -30,7 +29,7 @@ contract DiabetesCase3 {
 		bool exists;
 	}
 	
-	enum Ethnicities{ HighRiskEthnicity, PacificIslander, HighRiskEthnicity, AfricanAmerican, AsianAmerican, Latino, NativeAmerican }
+	enum Ethnicities{ HighRiskEthnicity, PacificIslander, AfricanAmerican, AsianAmerican, Latino, NativeAmerican }
 	
 	struct Ethnicity {
 		Ethnicities hasType;
@@ -67,16 +66,16 @@ contract DiabetesCase3 {
 			&& patient.hasEthnicity.exists
 			&& patient.hasEthnicity.hasType != Ethnicities.AsianAmerican) {
 		
-			PatientDemographic memory v13 = PatientDemographic({ hasType: PatientDemographics.Overweight, exists: true });
-			patient.hasDemographic[v13.hasType] = v13;
+			PatientDemographic memory v6 = PatientDemographic({ hasType: PatientDemographics.Overweight, exists: true });
+			patient.hasDemographic[v6.hasType] = v6;
 		}
 		
 		if (patient.hasPhysicalExamination[DiabetesPhysicalExaminations.Bmi].exists
 			&& patient.hasPhysicalExamination[DiabetesPhysicalExaminations.Bmi].hasQuantitativeValue >= 23
 			&& patient.hasEthnicity.hasType == Ethnicities.AsianAmerican) {
 		
-			PatientDemographic memory v14 = PatientDemographic({ hasType: PatientDemographics.Overweight, exists: true });
-			patient.hasDemographic[v14.hasType] = v14;
+			PatientDemographic memory v7 = PatientDemographic({ hasType: PatientDemographics.Overweight, exists: true });
+			patient.hasDemographic[v7.hasType] = v7;
 		}
 		
 		if (patient.hasPatientProfile.exists
@@ -93,8 +92,8 @@ contract DiabetesCase3 {
 		if (patient.hasDemographic[PatientDemographics.Overweight].exists
 			&& patient.hasEthnicity.hasType == Ethnicities.HighRiskEthnicity) {
 		
-			Recommendation memory v15 = Recommendation({ hasType: Recommendations.DiabetesScreening, exists: true });
-			patient.recommendTest[v15.hasType] = v15;
+			Recommendation memory v8 = Recommendation({ hasType: Recommendations.DiabetesScreening, exists: true });
+			patient.recommendTest[v8.hasType] = v8;
 		
 			emit RecommendDiabetesScreening(block.timestamp);
 		}

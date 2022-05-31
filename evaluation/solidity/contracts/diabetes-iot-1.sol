@@ -1,18 +1,15 @@
-// Specifies the version of Solidity, using semantic versioning.
-// Learn more: https://solidity.readthedocs.io/en/v0.5.10/layout-of-source-files.html#pragma
-pragma solidity ^0.7.0;
+//SPDX-License-Identifier: Apache 2
+pragma solidity ^0.8.0;
 
-contract DiabetesCase1 {
+contract DiabetesIot1 {
 	string public message;
 	
 	constructor(string memory initMessage) {
 		message = initMessage;
 	}
 	
-	
-	event NewTreatmentSubPlan(uint time);
-	
-	
+	event NewTreatmentSubPlan(uint time, string message);
+		
 	struct Patient {
 		mapping(TreatmentSubplans => TreatmentSubplan) hasPart;
 		mapping(PatientDemographics => PatientDemographic) hasDemographic;
@@ -55,17 +52,22 @@ contract DiabetesCase1 {
 		bool exists;
 	}
 	
-	
 	mapping(address => Patient) patients;
 	
 	function execute(DiabetesPhysicalExamination memory exam) public {
-		Patient storage patient = patients[msg.sender];
-	
+        
+        Patient storage patient = patients[msg.sender];
+   
+
 		if (exam.hasType == DiabetesPhysicalExaminations.Bmi
 			&& exam.hasQuantitativeValue >= 25) {
 		
-			PatientDemographic memory v9 = PatientDemographic({ hasType: PatientDemographics.Overweight, exists: true });
-			patient.hasDemographic[v9.hasType] = v9;
+			PatientDemographic memory v0 = PatientDemographic({ hasType: PatientDemographics.Overweight, exists: true });
+            patient.hasDemographic[PatientDemographics.Overweight].exists = true;
+			patient.hasDemographic[v0.hasType] = v0;
+            patient.hasDiagnosis.exists = true;
+            patient.hasDiagnosis.hasDiabetesType.exists = true;
+            patient.hasDiagnosis.hasDiabetesType.hasType = DiabetesMellituses.Type2DiabetesMellitus;
 		}
 		
 		if (patient.hasDiagnosis.exists
@@ -73,13 +75,12 @@ contract DiabetesCase1 {
 			&& patient.hasDiagnosis.hasDiabetesType.hasType == DiabetesMellituses.Type2DiabetesMellitus
 			&& patient.hasDemographic[PatientDemographics.Overweight].exists) {
 		
-			TreatmentSubplan memory v10 = TreatmentSubplan({ hasType: TreatmentSubplans.LifestyleSubplan, label: "diet, physical activity, and behavioral counseling", exists: true });
-			patient.hasPart[v10.hasType] = v10;
-		
-			emit NewTreatmentSubPlan(block.timestamp);
+			TreatmentSubplan memory v1 = TreatmentSubplan({ hasType: TreatmentSubplans.LifestyleSubplan, label: "Management and reduction of weight is important", exists: true });
+			patient.hasPart[v1.hasType] = v1;
+
+			emit NewTreatmentSubPlan(block.timestamp, v1.label);
+
 		}
 	}
 	
-	function update(string memory newMessage) public {
-		message = newMessage;
-	}}
+}

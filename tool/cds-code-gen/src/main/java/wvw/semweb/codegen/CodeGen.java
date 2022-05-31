@@ -9,40 +9,19 @@ import wvw.semweb.codegen.gen.GenerateCode;
 import wvw.semweb.codegen.gen.GenerateCode.CodeTypes;
 import wvw.semweb.codegen.parse.ParseModelLogic;
 
-//(important)
-
-// TODO in paper, consider talking about InsertAllOntologyConstants:
-// i.e., add all sub-types of a given type as constants
-// (should ideally also include URIs of the given type)
-
-// TODO add createPatient methods to smart contracts
-// (unfortunately, these need to be created separately *per* scenario)
-
-// (future work)
-
-//TODO limitations of adt merging for solidity: 
-//combination of lifestyle with drug subplans will likely not work
-
-// TODO assuming that the rule ordering reflects the chaining sequence
-
-// TODO can only create new adt with *non* array-like properties
-// (e.g., try DrugSubPlan; remove functional property type)
-// (in solidity: "TypeError: Struct containing a (nested) mapping cannot be constructed")
-
-// TODO have separate post-processing for adt model
-// (most are only needed after all the rules are processed; currently doing duplicate work)
-
-//TODO post-processing where adts sharing a (non-trivial) superclass (i.e., not owl:Thing, entity, ..)
-//are merged together
-
-//(minor)
-
-//TODO properly parametrize ModelVisitorImpl code (e.g., CodeLogicVisitor, CodeModelVisitor)
-
 public class CodeGen {
 
 	private static final Logger log = LogManager.getLogger(CodeGen.class);
 
+	/** 
+	 * Will generate Solidity and JavaScript code for 4 cases found in src/main/resources/. 
+	 * 
+	 * Generated code will appear under src/main/resources.
+	 * 
+	 * @param args
+	 * @throws Exception
+	 */
+	
 	public static void main(String[] args) throws Exception {
 		for (CodeTypes codeType : CodeTypes.values()) {
 			log.info("> converting into " + codeType + "\n");
