@@ -45,6 +45,7 @@ public class NS {
 	public static final String rbc = "http://niche.cs.dal.ca/ns/cig/rbc_match.owl#";
 	public static final String DMTO = "https://bioportal.bioontology.org/ontologies/DMTO.owl#";
 	public static final String DDO = "http://purl.obolibrary.org/obo/DDO.owl#";
+	public static final String DTO = "https://bioportal.bioontology.org/ontologies/DTO.owl#";
 
 	static {
 		map = new HashMap<String, String>();
@@ -66,6 +67,7 @@ public class NS {
 		map.put("rbc", rbc);
 		map.put("DMTO", DMTO);
 		map.put("DDO", DDO);
+		map.put("DTO", DTO);
 	}
 
 	public static String toQname(String uri) {
