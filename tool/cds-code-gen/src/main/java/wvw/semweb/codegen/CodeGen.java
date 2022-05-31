@@ -13,19 +13,21 @@ public class CodeGen {
 
 	private static final Logger log = LogManager.getLogger(CodeGen.class);
 
-	/** 
-	 * Will generate Solidity and JavaScript code for 4 cases found in src/main/resources/. 
+	/**
+	 * Will generate Solidity and JavaScript code for 4 cases found in
+	 * src/main/resources/.
 	 * 
 	 * Generated code will appear under src/main/resources.
 	 * 
 	 * @param args
 	 * @throws Exception
 	 */
-	
+
 	public static void main(String[] args) throws Exception {
+		long start = System.currentTimeMillis();
 		for (CodeTypes codeType : CodeTypes.values()) {
 			log.info("> converting into " + codeType + "\n");
-			
+
 			generateCode(new File("diabetes-case1.n3"), new File("DMTO2.n3"), new File("src/main/resources/"),
 					codeType);
 			generateCode(new File("diabetes-case2.n3"), new File("DMTO2.n3"), new File("src/main/resources/"),
@@ -34,9 +36,13 @@ public class CodeGen {
 					codeType);
 			generateCode(new File("diabetes-case4.n3"), new File("DMTO2.n3"), new File("src/main/resources/"),
 					codeType);
-			
+
 			log.info("\n");
 		}
+		long end = System.currentTimeMillis();
+		long total = (end - start);
+
+		System.out.println("total time: " + total + " (avg: " + (total / 4 / CodeTypes.values().length) + ")");
 	}
 
 	public static void generateCode(File ruleFile, File ontologyFile, File outFolder, CodeTypes codeType)

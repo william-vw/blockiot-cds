@@ -2,12 +2,15 @@ package wvw.semweb.codegen;
 
 import static org.apache.jen3.n3.N3ModelSpec.Types.N3_MEM_FP_INF;
 
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.BiConsumer;
+import java.util.stream.Collectors;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
@@ -19,6 +22,7 @@ import org.apache.jen3.rdf.model.Resource;
 import org.apache.jen3.rdf.model.Statement;
 import org.apache.jen3.sys.JenaSystem;
 import org.apache.jen3.vocabulary.RDF;
+import org.apache.jena.ext.com.google.common.io.Files;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -32,12 +36,26 @@ public class CdsRules {
 	public static void main(String[] args) throws Exception {
 		JenaSystem.init();
 
-//		testCase("data/case1.csv", "diabetes-case1.n3", "DMTO:DMTO_0001701", (record, m) -> patientCase1(record, m));
-//		testCase("data/case2.csv", "diabetes-case2.n3", "DMTO:DMTO_0001701", (record, m) -> patientCase2(record, m));
-		testCase("data/case3.csv", "diabetes-case3.n3", "DMTO:recommend_test", (record, m) -> patientCase3(record, m));
+		// - for n3 rules, determine "matching" patients
+		// (i.e., for whom recommendations are inferred)
+//		testCases();
+
+		// - compare n3 output with solidity output
+		compareCases();
 	}
 
-	public static void testCase(String casePath, String rulesPath, String predQName,
+	public static void testCases() throws Exception {
+		testCase("data/case1.csv", "diabetes-case1.n3", "results/n3/case1", "DMTO:DMTO_0001701", null,
+				(record, m) -> patientCase1(record, m));
+		testCase("data/case2.csv", "diabetes-case2.n3", "results/n3/case2.1", "DMTO:DMTO_0001701", "DMTO:DMTO_0001712",
+				(record, m) -> patientCase2(record, m));
+		testCase("data/case2.csv", "diabetes-case2.n3", "results/n3/case2.2", "DMTO:DMTO_0001701", "DMTO:DMTO_0001710",
+				(record, m) -> patientCase2(record, m));
+		testCase("data/case3.csv", "diabetes-case3.n3", "results/n3/case3", "DMTO:recommend_test", null,
+				(record, m) -> patientCase3(record, m));
+	}
+
+	private static void testCase(String casePath, String rulesPath, String outPath, String predUri, String typeUri,
 			BiConsumer<CSVRecord, N3Model> genPatient) throws Exception {
 
 		List<String> matched = new ArrayList<>();
@@ -59,15 +77,36 @@ public class CdsRules {
 			// - rules
 			m.read(IOUtils.getResourceStream(CdsRules.class, rulesPath), "N3");
 
-			Iterator<Statement> results = m.listStatements(null, m.createResource(NS.toUri(predQName)),
-					(Resource) null);
-			if (results.hasNext())
-				matched.add(id);
+			boolean success = false;
 
-			log.info("record " + ++cnt + (results.hasNext() ? " (matched)" : ""));
+			Iterator<Statement> results = m.listStatements(null, m.createResource(NS.toUri(predUri)), (Resource) null);
+			if (results.hasNext()) {
+
+				if (typeUri != null) {
+					while (results.hasNext()) {
+						Resource result = results.next().getObject();
+
+						if (result.hasProperty(RDF.type, m.createResource(NS.toUri(typeUri)))) {
+							success = true;
+							matched.add(id);
+
+							break;
+						}
+					}
+
+				} else {
+					success = true;
+					matched.add(id);
+				}
+			}
+
+			log.info("record " + ++cnt + " (" + id + ")" + (success ? " (success)" : ""));
 		}
 
 		log.info("matched: " + matched);
+
+		String out = matched.stream().collect(Collectors.joining("\n"));
+		Files.write(out.getBytes(), new File("src/main/resources/" + outPath));
 	}
 
 	private static void patientCase1(CSVRecord record, N3Model m) {
@@ -103,7 +142,7 @@ public class CdsRules {
 		m.add(sysRes, RDF.type, m.createResource(NS.toUri("DDO:DDO_0000239")));
 		m.add(sysRes, m.createResource(NS.toUri("DDO:DDO_0000134")), m.createTypedLiteral(sys));
 
-		int dias = Double.valueOf(record.get("SYSTOLIC")).intValue();
+		int dias = Double.valueOf(record.get("DIASTOLIC")).intValue();
 		Resource diasRes = m.createResource(NS.toUri("cg:dias" + id));
 
 		m.add(diasRes, RDF.type, m.createResource(NS.toUri("DDO:DDO_0000241")));
@@ -148,5 +187,39 @@ public class CdsRules {
 			return "DTO:DTO:0001936";
 		else
 			return null;
+	}
+
+	public static void compareCases() throws Exception {
+//		compareCase("results/solidity/case1.csv", "MANAGEMENT", "results/n3/case1");
+//		compareCase("results/solidity/case2.csv", "LIFESTYLE_THERAPY", "results/n3/case2.1");
+//		compareCase("results/solidity/case2.csv", "PHARMACOLOGIC", "results/n3/case2.2");
+		compareCase("results/solidity/case3.csv", "SCREENING", "results/n3/case3");
+	}
+
+	private static void compareCase(String solResPath, String recommCol, String n3ResPath) throws Exception {
+		List<String> solOutput = new ArrayList<>();
+		Reader in = new InputStreamReader(IOUtils.getResourceStream(CdsRules.class, solResPath));
+		CSVFormat.DEFAULT.builder().setHeader().setSkipHeaderRecord(true).build().parse(in).forEach(record -> {
+			if (record.get(recommCol).equals("1"))
+				solOutput.add(record.get("HADM_ID"));
+		});
+
+		List<String> n3Output = new BufferedReader(
+				new InputStreamReader(IOUtils.getResourceStream(CdsRules.class, n3ResPath))).lines()
+						.collect(Collectors.toList());
+
+		log.info("solidity (#" + solOutput.size() + "): " + solOutput);
+		log.info("n3 (#" + n3Output.size() + "): " + n3Output);
+		log.info("");
+
+		for (String n3Res : n3Output) {
+			if (!solOutput.contains(n3Res))
+				log.error("n3 result " + n3Res + " not found in solidity output");
+		}
+
+		for (String solRes : solOutput) {
+			if (!n3Output.contains(solRes))
+				log.error("solidity result " + solRes + " not found in n3 output");
+		}
 	}
 }
