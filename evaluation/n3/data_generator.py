@@ -1,5 +1,5 @@
 from rdflib import Graph, URIRef, Literal, BNode, Namespace
-from rdflib.namespace import RDF, FOAF
+from rdflib.namespace import RDF, FOAF, XSD
 import csv
 
 g = Graph()
@@ -30,7 +30,7 @@ with open(case1_filename, 'r') as csvfile:
         bmi = row["BMI"]
 
         g.add((ns_cg["exam"+patient_identifier], RDF.type, ns_ddo.DDO_0000230))
-        g.add((ns_cg["exam"+patient_identifier], ns_ddo.DDO_0000134, Literal(bmi)))
+        g.add((ns_cg["exam"+patient_identifier], ns_ddo.DDO_0000134, Literal(bmi, datatype=XSD.integer)))
 
         g.add((ns_cg["patient"+patient_identifier], RDF.type, ns_dmto.DMTO_0000021))
         diagnosis_bnode = BNode()

@@ -1,369 +1,370 @@
 @prefix : <http://niche.cs.dal.ca/codegen.owl#> .
 @prefix ddo: <http://purl.obolibrary.org/obo/DDO.owl#> .
 @prefix dmto: <https://bioportal.bioontology.org/ontologies/DMTO.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :exam100989 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam102181 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "35" .
+    ddo:DDO_0000134 35 .
 
 :exam102660 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam103106 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "54" .
+    ddo:DDO_0000134 54 .
 
 :exam105404 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam107057 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "23" .
+    ddo:DDO_0000134 23 .
 
 :exam107932 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "30" .
+    ddo:DDO_0000134 30 .
 
 :exam108789 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam109045 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "32" .
+    ddo:DDO_0000134 32 .
 
 :exam109598 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "23" .
+    ddo:DDO_0000134 23 .
 
 :exam110109 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "28" .
+    ddo:DDO_0000134 28 .
 
 :exam110341 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "164" .
+    ddo:DDO_0000134 164 .
 
 :exam111241 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam111476 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "51" .
+    ddo:DDO_0000134 51 .
 
 :exam112304 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam112808 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "38" .
+    ddo:DDO_0000134 38 .
 
 :exam112955 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam113114 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "26" .
+    ddo:DDO_0000134 26 .
 
 :exam113116 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "30" .
+    ddo:DDO_0000134 30 .
 
 :exam113508 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "21" .
+    ddo:DDO_0000134 21 .
 
 :exam114200 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "17" .
+    ddo:DDO_0000134 17 .
 
 :exam114247 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "26" .
+    ddo:DDO_0000134 26 .
 
 :exam114572 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam116048 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam116951 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam118698 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "19" .
+    ddo:DDO_0000134 19 .
 
 :exam120001 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "38" .
+    ddo:DDO_0000134 38 .
 
 :exam120880 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "32" .
+    ddo:DDO_0000134 32 .
 
 :exam121472 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam123437 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "20" .
+    ddo:DDO_0000134 20 .
 
 :exam123458 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "30" .
+    ddo:DDO_0000134 30 .
 
 :exam124015 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam125544 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "26" .
+    ddo:DDO_0000134 26 .
 
 :exam126524 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "34" .
+    ddo:DDO_0000134 34 .
 
 :exam126637 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "23" .
+    ddo:DDO_0000134 23 .
 
 :exam128437 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "19" .
+    ddo:DDO_0000134 19 .
 
 :exam128648 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam128813 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "32" .
+    ddo:DDO_0000134 32 .
 
 :exam128953 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "34" .
+    ddo:DDO_0000134 34 .
 
 :exam130537 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "30" .
+    ddo:DDO_0000134 30 .
 
 :exam131592 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "21" .
+    ddo:DDO_0000134 21 .
 
 :exam132269 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "31" .
+    ddo:DDO_0000134 31 .
 
 :exam132619 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "17" .
+    ddo:DDO_0000134 17 .
 
 :exam132839 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "23" .
+    ddo:DDO_0000134 23 .
 
 :exam133334 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam133463 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "20" .
+    ddo:DDO_0000134 20 .
 
 :exam134224 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "30" .
+    ddo:DDO_0000134 30 .
 
 :exam134238 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam135728 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "41" .
+    ddo:DDO_0000134 41 .
 
 :exam139346 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "166" .
+    ddo:DDO_0000134 166 .
 
 :exam140147 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "26" .
+    ddo:DDO_0000134 26 .
 
 :exam140525 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "31" .
+    ddo:DDO_0000134 31 .
 
 :exam140874 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam141000 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "17" .
+    ddo:DDO_0000134 17 .
 
 :exam142285 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "19" .
+    ddo:DDO_0000134 19 .
 
 :exam144257 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "19" .
+    ddo:DDO_0000134 19 .
 
 :exam145990 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "28" .
+    ddo:DDO_0000134 28 .
 
 :exam146656 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam147237 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "35" .
+    ddo:DDO_0000134 35 .
 
 :exam147630 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "26" .
+    ddo:DDO_0000134 26 .
 
 :exam149348 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "29" .
+    ddo:DDO_0000134 29 .
 
 :exam154098 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "18" .
+    ddo:DDO_0000134 18 .
 
 :exam155012 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "35" .
+    ddo:DDO_0000134 35 .
 
 :exam155976 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "55" .
+    ddo:DDO_0000134 55 .
 
 :exam156033 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "18" .
+    ddo:DDO_0000134 18 .
 
 :exam156416 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam156778 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam157017 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam157329 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam157903 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "32" .
+    ddo:DDO_0000134 32 .
 
 :exam159465 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "35" .
+    ddo:DDO_0000134 35 .
 
 :exam161129 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam164646 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam165353 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "16" .
+    ddo:DDO_0000134 16 .
 
 :exam165559 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "26" .
+    ddo:DDO_0000134 26 .
 
 :exam165585 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "21" .
+    ddo:DDO_0000134 21 .
 
 :exam166295 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "29" .
+    ddo:DDO_0000134 29 .
 
 :exam166669 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam167635 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam167674 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "37" .
+    ddo:DDO_0000134 37 .
 
 :exam168708 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "17" .
+    ddo:DDO_0000134 17 .
 
 :exam168776 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam168828 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam169381 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "28" .
+    ddo:DDO_0000134 28 .
 
 :exam169726 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam169827 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam170829 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam172200 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "20" .
+    ddo:DDO_0000134 20 .
 
 :exam172748 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "20" .
+    ddo:DDO_0000134 20 .
 
 :exam173495 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam174040 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "21" .
+    ddo:DDO_0000134 21 .
 
 :exam174278 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "19" .
+    ddo:DDO_0000134 19 .
 
 :exam175190 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "20" .
+    ddo:DDO_0000134 20 .
 
 :exam175261 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "37" .
+    ddo:DDO_0000134 37 .
 
 :exam175410 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "27" .
+    ddo:DDO_0000134 27 .
 
 :exam175935 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "25" .
+    ddo:DDO_0000134 25 .
 
 :exam176059 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "29" .
+    ddo:DDO_0000134 29 .
 
 :exam176627 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "26" .
+    ddo:DDO_0000134 26 .
 
 :exam177062 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "34" .
+    ddo:DDO_0000134 34 .
 
 :exam177995 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "19" .
+    ddo:DDO_0000134 19 .
 
 :exam178019 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "21" .
+    ddo:DDO_0000134 21 .
 
 :exam178084 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam178390 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "26" .
+    ddo:DDO_0000134 26 .
 
 :exam178414 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "28" .
+    ddo:DDO_0000134 28 .
 
 :exam181224 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "44" .
+    ddo:DDO_0000134 44 .
 
 :exam182796 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam183158 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam183201 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "21" .
+    ddo:DDO_0000134 21 .
 
 :exam185487 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "17" .
+    ddo:DDO_0000134 17 .
 
 :exam186315 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "16" .
+    ddo:DDO_0000134 16 .
 
 :exam186871 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam188413 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "23" .
+    ddo:DDO_0000134 23 .
 
 :exam188471 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "20" .
+    ddo:DDO_0000134 20 .
 
 :exam189427 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "22" .
+    ddo:DDO_0000134 22 .
 
 :exam190900 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "16" .
+    ddo:DDO_0000134 16 .
 
 :exam194206 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "33" .
+    ddo:DDO_0000134 33 .
 
 :exam195082 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "24" .
+    ddo:DDO_0000134 24 .
 
 :exam195269 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "25" .
+    ddo:DDO_0000134 25 .
 
 :exam195617 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "36" .
+    ddo:DDO_0000134 36 .
 
 :exam195649 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "9" .
+    ddo:DDO_0000134 9 .
 
 :exam199720 a ddo:DDO_0000230 ;
-    ddo:DDO_0000134 "25" .
+    ddo:DDO_0000134 25 .
 
 :patient100989 a dmto:DMTO_0000021 .
 
