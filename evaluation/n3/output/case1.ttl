@@ -1,0 +1,972 @@
+@prefix : <http://niche.cs.dal.ca/codegen.owl#> .
+@prefix ddo: <http://purl.obolibrary.org/obo/DDO.owl#> .
+@prefix dmto: <https://bioportal.bioontology.org/ontologies/DMTO.owl#> .
+
+:exam100989 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam102181 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "35" .
+
+:exam102660 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam103106 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "54" .
+
+:exam105404 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam107057 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "23" .
+
+:exam107932 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "30" .
+
+:exam108789 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam109045 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "32" .
+
+:exam109598 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "23" .
+
+:exam110109 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "28" .
+
+:exam110341 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "164" .
+
+:exam111241 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam111476 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "51" .
+
+:exam112304 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam112808 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "38" .
+
+:exam112955 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam113114 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "26" .
+
+:exam113116 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "30" .
+
+:exam113508 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "21" .
+
+:exam114200 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "17" .
+
+:exam114247 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "26" .
+
+:exam114572 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam116048 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam116951 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam118698 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "19" .
+
+:exam120001 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "38" .
+
+:exam120880 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "32" .
+
+:exam121472 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam123437 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "20" .
+
+:exam123458 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "30" .
+
+:exam124015 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam125544 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "26" .
+
+:exam126524 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "34" .
+
+:exam126637 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "23" .
+
+:exam128437 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "19" .
+
+:exam128648 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam128813 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "32" .
+
+:exam128953 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "34" .
+
+:exam130537 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "30" .
+
+:exam131592 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "21" .
+
+:exam132269 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "31" .
+
+:exam132619 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "17" .
+
+:exam132839 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "23" .
+
+:exam133334 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam133463 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "20" .
+
+:exam134224 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "30" .
+
+:exam134238 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam135728 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "41" .
+
+:exam139346 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "166" .
+
+:exam140147 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "26" .
+
+:exam140525 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "31" .
+
+:exam140874 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam141000 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "17" .
+
+:exam142285 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "19" .
+
+:exam144257 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "19" .
+
+:exam145990 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "28" .
+
+:exam146656 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam147237 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "35" .
+
+:exam147630 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "26" .
+
+:exam149348 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "29" .
+
+:exam154098 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "18" .
+
+:exam155012 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "35" .
+
+:exam155976 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "55" .
+
+:exam156033 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "18" .
+
+:exam156416 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam156778 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam157017 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam157329 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam157903 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "32" .
+
+:exam159465 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "35" .
+
+:exam161129 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam164646 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam165353 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "16" .
+
+:exam165559 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "26" .
+
+:exam165585 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "21" .
+
+:exam166295 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "29" .
+
+:exam166669 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam167635 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam167674 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "37" .
+
+:exam168708 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "17" .
+
+:exam168776 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam168828 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam169381 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "28" .
+
+:exam169726 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam169827 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam170829 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam172200 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "20" .
+
+:exam172748 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "20" .
+
+:exam173495 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam174040 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "21" .
+
+:exam174278 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "19" .
+
+:exam175190 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "20" .
+
+:exam175261 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "37" .
+
+:exam175410 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "27" .
+
+:exam175935 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "25" .
+
+:exam176059 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "29" .
+
+:exam176627 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "26" .
+
+:exam177062 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "34" .
+
+:exam177995 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "19" .
+
+:exam178019 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "21" .
+
+:exam178084 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam178390 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "26" .
+
+:exam178414 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "28" .
+
+:exam181224 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "44" .
+
+:exam182796 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam183158 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam183201 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "21" .
+
+:exam185487 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "17" .
+
+:exam186315 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "16" .
+
+:exam186871 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam188413 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "23" .
+
+:exam188471 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "20" .
+
+:exam189427 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "22" .
+
+:exam190900 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "16" .
+
+:exam194206 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "33" .
+
+:exam195082 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "24" .
+
+:exam195269 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "25" .
+
+:exam195617 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "36" .
+
+:exam195649 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "9" .
+
+:exam199720 a ddo:DDO_0000230 ;
+    ddo:DDO_0000134 "25" .
+
+:patient100989 a dmto:DMTO_0000021 .
+
+:patient100989_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient100989_plan .
+
+:patient102181 a dmto:DMTO_0000021 .
+
+:patient102181_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient102181_plan .
+
+:patient102660 a dmto:DMTO_0000021 .
+
+:patient102660_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient102660_plan .
+
+:patient103106 a dmto:DMTO_0000021 .
+
+:patient103106_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient103106_plan .
+
+:patient105404 a dmto:DMTO_0000021 .
+
+:patient105404_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient105404_plan .
+
+:patient107057 a dmto:DMTO_0000021 .
+
+:patient107057_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient107057_plan .
+
+:patient107932 a dmto:DMTO_0000021 .
+
+:patient107932_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient107932_plan .
+
+:patient108789 a dmto:DMTO_0000021 .
+
+:patient108789_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient108789_plan .
+
+:patient109045 a dmto:DMTO_0000021 .
+
+:patient109045_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient109045_plan .
+
+:patient109598 a dmto:DMTO_0000021 .
+
+:patient109598_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient109598_plan .
+
+:patient110109 a dmto:DMTO_0000021 .
+
+:patient110109_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient110109_plan .
+
+:patient110341 a dmto:DMTO_0000021 .
+
+:patient110341_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient110341_plan .
+
+:patient111241 a dmto:DMTO_0000021 .
+
+:patient111241_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient111241_plan .
+
+:patient111476 a dmto:DMTO_0000021 .
+
+:patient111476_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient111476_plan .
+
+:patient112304 a dmto:DMTO_0000021 .
+
+:patient112304_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient112304_plan .
+
+:patient112808 a dmto:DMTO_0000021 .
+
+:patient112808_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient112808_plan .
+
+:patient112955 a dmto:DMTO_0000021 .
+
+:patient112955_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient112955_plan .
+
+:patient113114 a dmto:DMTO_0000021 .
+
+:patient113114_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient113114_plan .
+
+:patient113116 a dmto:DMTO_0000021 .
+
+:patient113116_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient113116_plan .
+
+:patient113508 a dmto:DMTO_0000021 .
+
+:patient113508_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient113508_plan .
+
+:patient114200 a dmto:DMTO_0000021 .
+
+:patient114200_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient114200_plan .
+
+:patient114247 a dmto:DMTO_0000021 .
+
+:patient114247_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient114247_plan .
+
+:patient114572 a dmto:DMTO_0000021 .
+
+:patient114572_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient114572_plan .
+
+:patient116048 a dmto:DMTO_0000021 .
+
+:patient116048_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient116048_plan .
+
+:patient116951 a dmto:DMTO_0000021 .
+
+:patient116951_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient116951_plan .
+
+:patient118698 a dmto:DMTO_0000021 .
+
+:patient118698_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient118698_plan .
+
+:patient120001 a dmto:DMTO_0000021 .
+
+:patient120001_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient120001_plan .
+
+:patient120880 a dmto:DMTO_0000021 .
+
+:patient120880_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient120880_plan .
+
+:patient121472 a dmto:DMTO_0000021 .
+
+:patient121472_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient121472_plan .
+
+:patient123437 a dmto:DMTO_0000021 .
+
+:patient123437_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient123437_plan .
+
+:patient123458 a dmto:DMTO_0000021 .
+
+:patient123458_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient123458_plan .
+
+:patient124015 a dmto:DMTO_0000021 .
+
+:patient124015_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient124015_plan .
+
+:patient125544 a dmto:DMTO_0000021 .
+
+:patient125544_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient125544_plan .
+
+:patient126524 a dmto:DMTO_0000021 .
+
+:patient126524_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient126524_plan .
+
+:patient126637 a dmto:DMTO_0000021 .
+
+:patient126637_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient126637_plan .
+
+:patient128437 a dmto:DMTO_0000021 .
+
+:patient128437_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient128437_plan .
+
+:patient128648 a dmto:DMTO_0000021 .
+
+:patient128648_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient128648_plan .
+
+:patient128813 a dmto:DMTO_0000021 .
+
+:patient128813_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient128813_plan .
+
+:patient128953 a dmto:DMTO_0000021 .
+
+:patient128953_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient128953_plan .
+
+:patient130537 a dmto:DMTO_0000021 .
+
+:patient130537_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient130537_plan .
+
+:patient131592 a dmto:DMTO_0000021 .
+
+:patient131592_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient131592_plan .
+
+:patient132269 a dmto:DMTO_0000021 .
+
+:patient132269_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient132269_plan .
+
+:patient132619 a dmto:DMTO_0000021 .
+
+:patient132619_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient132619_plan .
+
+:patient132839 a dmto:DMTO_0000021 .
+
+:patient132839_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient132839_plan .
+
+:patient133334 a dmto:DMTO_0000021 .
+
+:patient133334_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient133334_plan .
+
+:patient133463 a dmto:DMTO_0000021 .
+
+:patient133463_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient133463_plan .
+
+:patient134224 a dmto:DMTO_0000021 .
+
+:patient134224_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient134224_plan .
+
+:patient134238 a dmto:DMTO_0000021 .
+
+:patient134238_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient134238_plan .
+
+:patient135728 a dmto:DMTO_0000021 .
+
+:patient135728_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient135728_plan .
+
+:patient139346 a dmto:DMTO_0000021 .
+
+:patient139346_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient139346_plan .
+
+:patient140147 a dmto:DMTO_0000021 .
+
+:patient140147_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient140147_plan .
+
+:patient140525 a dmto:DMTO_0000021 .
+
+:patient140525_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient140525_plan .
+
+:patient140874 a dmto:DMTO_0000021 .
+
+:patient140874_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient140874_plan .
+
+:patient141000 a dmto:DMTO_0000021 .
+
+:patient141000_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient141000_plan .
+
+:patient142285 a dmto:DMTO_0000021 .
+
+:patient142285_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient142285_plan .
+
+:patient144257 a dmto:DMTO_0000021 .
+
+:patient144257_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient144257_plan .
+
+:patient145990 a dmto:DMTO_0000021 .
+
+:patient145990_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient145990_plan .
+
+:patient146656 a dmto:DMTO_0000021 .
+
+:patient146656_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient146656_plan .
+
+:patient147237 a dmto:DMTO_0000021 .
+
+:patient147237_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient147237_plan .
+
+:patient147630 a dmto:DMTO_0000021 .
+
+:patient147630_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient147630_plan .
+
+:patient149348 a dmto:DMTO_0000021 .
+
+:patient149348_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient149348_plan .
+
+:patient154098 a dmto:DMTO_0000021 .
+
+:patient154098_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient154098_plan .
+
+:patient155012 a dmto:DMTO_0000021 .
+
+:patient155012_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient155012_plan .
+
+:patient155976 a dmto:DMTO_0000021 .
+
+:patient155976_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient155976_plan .
+
+:patient156033 a dmto:DMTO_0000021 .
+
+:patient156033_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient156033_plan .
+
+:patient156416 a dmto:DMTO_0000021 .
+
+:patient156416_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient156416_plan .
+
+:patient156778 a dmto:DMTO_0000021 .
+
+:patient156778_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient156778_plan .
+
+:patient157017 a dmto:DMTO_0000021 .
+
+:patient157017_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient157017_plan .
+
+:patient157329 a dmto:DMTO_0000021 .
+
+:patient157329_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient157329_plan .
+
+:patient157903 a dmto:DMTO_0000021 .
+
+:patient157903_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient157903_plan .
+
+:patient159465 a dmto:DMTO_0000021 .
+
+:patient159465_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient159465_plan .
+
+:patient161129 a dmto:DMTO_0000021 .
+
+:patient161129_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient161129_plan .
+
+:patient164646 a dmto:DMTO_0000021 .
+
+:patient164646_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient164646_plan .
+
+:patient165353 a dmto:DMTO_0000021 .
+
+:patient165353_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient165353_plan .
+
+:patient165559 a dmto:DMTO_0000021 .
+
+:patient165559_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient165559_plan .
+
+:patient165585 a dmto:DMTO_0000021 .
+
+:patient165585_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient165585_plan .
+
+:patient166295 a dmto:DMTO_0000021 .
+
+:patient166295_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient166295_plan .
+
+:patient166669 a dmto:DMTO_0000021 .
+
+:patient166669_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient166669_plan .
+
+:patient167635 a dmto:DMTO_0000021 .
+
+:patient167635_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient167635_plan .
+
+:patient167674 a dmto:DMTO_0000021 .
+
+:patient167674_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient167674_plan .
+
+:patient168708 a dmto:DMTO_0000021 .
+
+:patient168708_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient168708_plan .
+
+:patient168776 a dmto:DMTO_0000021 .
+
+:patient168776_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient168776_plan .
+
+:patient168828 a dmto:DMTO_0000021 .
+
+:patient168828_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient168828_plan .
+
+:patient169381 a dmto:DMTO_0000021 .
+
+:patient169381_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient169381_plan .
+
+:patient169726 a dmto:DMTO_0000021 .
+
+:patient169726_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient169726_plan .
+
+:patient169827 a dmto:DMTO_0000021 .
+
+:patient169827_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient169827_plan .
+
+:patient170829 a dmto:DMTO_0000021 .
+
+:patient170829_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient170829_plan .
+
+:patient172200 a dmto:DMTO_0000021 .
+
+:patient172200_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient172200_plan .
+
+:patient172748 a dmto:DMTO_0000021 .
+
+:patient172748_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient172748_plan .
+
+:patient173495 a dmto:DMTO_0000021 .
+
+:patient173495_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient173495_plan .
+
+:patient174040 a dmto:DMTO_0000021 .
+
+:patient174040_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient174040_plan .
+
+:patient174278 a dmto:DMTO_0000021 .
+
+:patient174278_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient174278_plan .
+
+:patient175190 a dmto:DMTO_0000021 .
+
+:patient175190_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient175190_plan .
+
+:patient175261 a dmto:DMTO_0000021 .
+
+:patient175261_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient175261_plan .
+
+:patient175410 a dmto:DMTO_0000021 .
+
+:patient175410_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient175410_plan .
+
+:patient175935 a dmto:DMTO_0000021 .
+
+:patient175935_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient175935_plan .
+
+:patient176059 a dmto:DMTO_0000021 .
+
+:patient176059_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient176059_plan .
+
+:patient176627 a dmto:DMTO_0000021 .
+
+:patient176627_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient176627_plan .
+
+:patient177062 a dmto:DMTO_0000021 .
+
+:patient177062_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient177062_plan .
+
+:patient177995 a dmto:DMTO_0000021 .
+
+:patient177995_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient177995_plan .
+
+:patient178019 a dmto:DMTO_0000021 .
+
+:patient178019_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient178019_plan .
+
+:patient178084 a dmto:DMTO_0000021 .
+
+:patient178084_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient178084_plan .
+
+:patient178390 a dmto:DMTO_0000021 .
+
+:patient178390_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient178390_plan .
+
+:patient178414 a dmto:DMTO_0000021 .
+
+:patient178414_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient178414_plan .
+
+:patient181224 a dmto:DMTO_0000021 .
+
+:patient181224_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient181224_plan .
+
+:patient182796 a dmto:DMTO_0000021 .
+
+:patient182796_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient182796_plan .
+
+:patient183158 a dmto:DMTO_0000021 .
+
+:patient183158_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient183158_plan .
+
+:patient183201 a dmto:DMTO_0000021 .
+
+:patient183201_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient183201_plan .
+
+:patient185487 a dmto:DMTO_0000021 .
+
+:patient185487_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient185487_plan .
+
+:patient186315 a dmto:DMTO_0000021 .
+
+:patient186315_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient186315_plan .
+
+:patient186871 a dmto:DMTO_0000021 .
+
+:patient186871_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient186871_plan .
+
+:patient188413 a dmto:DMTO_0000021 .
+
+:patient188413_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient188413_plan .
+
+:patient188471 a dmto:DMTO_0000021 .
+
+:patient188471_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient188471_plan .
+
+:patient189427 a dmto:DMTO_0000021 .
+
+:patient189427_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient189427_plan .
+
+:patient190900 a dmto:DMTO_0000021 .
+
+:patient190900_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient190900_plan .
+
+:patient194206 a dmto:DMTO_0000021 .
+
+:patient194206_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient194206_plan .
+
+:patient195082 a dmto:DMTO_0000021 .
+
+:patient195082_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient195082_plan .
+
+:patient195269 a dmto:DMTO_0000021 .
+
+:patient195269_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient195269_plan .
+
+:patient195617 a dmto:DMTO_0000021 .
+
+:patient195617_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient195617_plan .
+
+:patient195649 a dmto:DMTO_0000021 .
+
+:patient195649_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient195649_plan .
+
+:patient199720 a dmto:DMTO_0000021 .
+
+:patient199720_profile ddo:DDO_0000114 [ dmto:DMTO_0001673 [ a ddo:DDO_0003905 ] ] ;
+    dmto:DMTO_0001671 :patient199720_plan .
+
