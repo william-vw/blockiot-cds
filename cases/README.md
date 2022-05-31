@@ -20,7 +20,8 @@ Each folder contains the following:
   ([source](https://diabetesjournals.org/clinical/article/40/1/10/139035/Standards-of-Medical-Care-in-Diabetes-2022/\#T8.1))
 
    - [N3 editor link](http://ppr.cs.dal.ca:3002/n3/editor/s/prfSSCDO)  
-   - [etherscan link](https://ropsten.etherscan.io/address/0x3752aa4971Fb194f95CdFdE24175115FC18a6B1c#writeContract) (tuple: [ "0", "27", "true" ])
+   - [etherscan link](https://ropsten.etherscan.io/address/0x3752aa4971Fb194f95CdFdE24175115FC18a6B1c#writeContract)  
+   (tuple: `[ "0", "27", "true" ]`)
 
 2. **Hypertension Treatment**. ([code](case2/))   
  **10.7** For patients with blood pressure >120/80 mmHg, lifestyle intervention consists of weight loss when indicated, a Dietary Approaches to Stop Hypertension (DASH)-style eating pattern [..], moderation of alcohol intake, and increased physical activity.  
@@ -28,7 +29,8 @@ Each folder contains the following:
   ([source](https://diabetesjournals.org/clinical/article/40/1/10/139035/Standards-of-Medical-Care-in-Diabetes-2022#4097830))
 
    - [N3 editor link](http://ppr.cs.dal.ca:3002/n3/editor/s/vW0GONEI)  
-   - [etherscan link](https://ropsten.etherscan.io/address/0x6E24833c2d720520232781C5c1a9ac526d76BB30#writeContract)
+   - [etherscan link](https://ropsten.etherscan.io/address/0x6E24833c2d720520232781C5c1a9ac526d76BB30#writeContract)  
+   (tuple: `([0,int(systolic),True],[1,int(diastolic),True])`)
 
 
 3. **Diabetes Screening**. ([code](case3/))  
@@ -37,14 +39,5 @@ Each folder contains the following:
  ([source](https://diabetesjournals.org/clinical/article/40/1/10/139035/Standards-of-Medical-Care-in-Diabetes-2022#4097671))
 
    - [N3 editor link](http://ppr.cs.dal.ca:3002/n3/editor/s/XiTr4aKK)  
-   - [etherscan link](https://ropsten.etherscan.io/address/0x175D08884E2727332d229863EAC82E4c18A0b78f#writeContract)
-
- 4. **Metformin Therapy**. ([code](case4/))  
-  **3.6** Metformin therapy for prevention of type 2 diabetes should be considered in adults with prediabetes, as typified by the DPP, especially those aged 25–59 years with BMI >=35 kg/m2, higher fasting plasma glucose (e.g., >=110 mg/dL), and higher A1C (e.g., >=6.0%) [and in women with prior GDM].  
-   ([source](https://diabetesjournals.org/clinical/article/40/1/10/139035/Standards-of-Medical-Care-in-Diabetes-2022#4097686))
-  
-   - [N3 editor link](http://ppr.cs.dal.ca:3002/n3/editor/s/cRd8gOgt)  
-   - [etherscan link](https://ropsten.etherscan.io/address/0x5B76CbC6f1F256Dcdb1E42E66965544D90707383#writeContract)
-
-[^1]: https://diabetesjournals.org/clinical/article/40/1/10/139035/Standards-of-Medical-Care-in-Diabetes-2022
-[^2]: For our purpose, we assume an at-home IoMT measurement.
+   - [etherscan link](https://ropsten.etherscan.io/address/0x175D08884E2727332d229863EAC82E4c18A0b78f#writeContract)  
+   (tuple: `([ethnicity,True],[0,BMI,True])`)
