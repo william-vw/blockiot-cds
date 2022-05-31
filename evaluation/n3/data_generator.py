@@ -7,15 +7,15 @@ nm = g.namespace_manager
 g.bind("dmto", "https://bioportal.bioontology.org/ontologies/DMTO.owl#")
 g.bind("ddo", "http://purl.obolibrary.org/obo/DDO.owl#")
 
-prefix_dmto = "dmto"
+prefix_dmto = "DMTO"
 ns_dmto = Namespace("https://bioportal.bioontology.org/ontologies/DMTO.owl#")
 nm.bind(prefix_dmto, ns_dmto)
 
-prefix_ddo = "ddo"
+prefix_ddo = "DDO"
 ns_ddo = Namespace("http://purl.obolibrary.org/obo/DDO.owl#")
 nm.bind(prefix_ddo, ns_ddo)
 
-prefix_cg = "cg"
+prefix_cg = ""
 ns_cg = Namespace("http://niche.cs.dal.ca/codegen.owl#")
 nm.bind(prefix_cg, ns_cg)
 
@@ -33,6 +33,7 @@ with open(case1_filename, 'r') as csvfile:
         g.add((ns_cg["exam"+patient_identifier], ns_ddo.DDO_0000134, Literal(bmi, datatype=XSD.integer)))
 
         g.add((ns_cg["patient"+patient_identifier], RDF.type, ns_dmto.DMTO_0000021))
+        g.add((ns_cg["patient"+patient_identifier], ns_dmto.DMTO_0001667, ns_cg["patient"+patient_identifier+"_profile"]))
         diagnosis_bnode = BNode()
         g.add((ns_cg["patient"+patient_identifier+"_profile"], ns_ddo.DDO_0000114, diagnosis_bnode))
         diabetes_status_bnode = BNode()
