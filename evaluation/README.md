@@ -1,5 +1,8 @@
+## Evaluation Data and Output
+- [`data/`](https://github.com/william-vw/blockiot-cds/tree/main/evaluation/data): this folder keeps the input test data for the smart contracts.
+- [`output/`](https://github.com/william-vw/blockiot-cds/tree/main/evaluation/output): this folder keeps the list of patient IDs (`HADM_ID`) for whom recommendations were emitted by the smart contracts.
 
-## Installation Instructions
+## Smart Contracts: Installation Instructions
 
 Create a `.env` file with the following private information:
 ```
