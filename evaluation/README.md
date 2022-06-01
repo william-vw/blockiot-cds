@@ -1,5 +1,5 @@
 
-## How to run things
+## Installation Instructions
 
 Create a `.env` file with the following private information:
 ```
